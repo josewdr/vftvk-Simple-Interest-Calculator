@@ -1,4 +1,47 @@
-body {background-color:tan;}
-h1{color:green;}
+/*Se agrega el css al background*/
+body {
+    background-color:black;
+    font-family: Arial;
+    color: white;
+}
 
+h1{   
+    color:gray;
+    font-family: verdana;
+}
+/*Se agrega el css al .maindiv*/
+.maindiv{
 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+/*CSS adicional para conseguir la apariencia solicitada*/
+#principal1{
+    margin-left: 80px;
+}
+#principal{
+    margin-left: 70px;
+}
+#rate1{
+    margin-left: 80px;
+}
+#rate{
+    margin-left: 33px;
+}
+#years1{
+    margin-left: 80px;
+}
+#years{
+    margin-left: 40px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
