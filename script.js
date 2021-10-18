@@ -9,7 +9,7 @@ function updateRate(){
 function compute()
 {
     //Hacemos llamado a cada uno de los "input" de nuestro html
-    var principal = document.getElementById("principal").value;
+    var principal = parseFloat(document.getElementById("principal").value);
     var rate = document.getElementById("rate").value;
     var year = document.getElementById("years").value;
     
@@ -23,7 +23,6 @@ function compute()
         return false;
     }else{
         //En caso se que el número sea entero, se escribe la stiqueta <span> id = "result" el siguiente información.
-        document.getElementById("result").innerHTML = "If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>"
+        document.getElementById("result").innerHTML = "If you deposit <mark>"+principal+"</mark>,\<br\>at an interest rate of <mark>"+rate+"%</mark>\<br\>You will receive an amount of <mark>"+amount+"</mark>,\<br\>in the year <mark>"+year+"</mark>\<br\>"
     }
 }
-        
